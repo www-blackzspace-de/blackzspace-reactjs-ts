@@ -38,23 +38,23 @@ function Downloads() {
 
           <div className="body">
             <center>
-              <table class="tg">
+              <table className="tg">
                 <thead>
                   <tr>
-                    <th class="tg-baqh">Name</th>
-                    <th class="tg-baqh">Description</th>
-                    <th class="tg-baqh">Link</th>
+                    <th className="tg-baqh">Name</th>
+                    <th className="tg-baqh">Description</th>
+                    <th className="tg-baqh">Link</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td class="tg-baqh">VSCode</td>
-                    <td class="tg-baqh">Integrated Desktop Enviroment</td>
-                    <td class="tg-baqh">
+                    <td className="tg-baqh">VSCode</td>
+                    <td className="tg-baqh">Integrated Desktop Enviroment</td>
+                    <td className="tg-baqh">
                       <div>
                         <center>
                           <Button
-                            class="button"
+                            className="button"
                             variant="contained"
                             href="https://code.visualstudio.com/download"
                             target="_blank" 
@@ -67,13 +67,13 @@ function Downloads() {
                     </td>
                   </tr>
                   <tr>
-                    <td class="tg-baqh">Python</td>
-                    <td class="tg-baqh">Python Interpreter</td>
-                    <td class="tg-baqh">
+                    <td className="tg-baqh">Python</td>
+                    <td className="tg-baqh">Python Interpreter</td>
+                    <td className="tg-baqh">
                       <div>
                         <center>
                           <Button
-                            class="button"
+                            className="button"
                             variant="contained"
                             href="https://www.python.org/downloads/"
                             target="_blank" 
@@ -86,13 +86,13 @@ function Downloads() {
                     </td>
                   </tr>
                   <tr>
-                    <td class="tg-baqh">NodeJS</td>
-                    <td class="tg-baqh">Node.js - Runtime Enviroment</td>
-                    <td class="tg-baqh">
+                    <td className="tg-baqh">NodeJS</td>
+                    <td className="tg-baqh">Node.js - Runtime Enviroment</td>
+                    <td className="tg-baqh">
                       <div>
                         <center>
                           <Button
-                            class="button"
+                            className="button"
                             variant="contained"
                             href="https://nodejs.org/de/download"
                             target="_blank" 
@@ -105,15 +105,15 @@ function Downloads() {
                     </td>
                   </tr>
                   <tr>
-                    <td class="tg-baqh">QT</td>
-                    <td class="tg-baqh">
+                    <td className="tg-baqh">QT</td>
+                    <td className="tg-baqh">
                       QT-Designer/Creator Framework for building GUI's
                     </td>
-                    <td class="tg-baqh">
+                    <td className="tg-baqh">
                       <div>
                         <center>
                           <Button
-                            class="button"
+                            className="button"
                             variant="contained"
                             href="https://www.qt.io/download"
                             target="_blank" 
@@ -126,13 +126,13 @@ function Downloads() {
                     </td>
                   </tr>
                   <tr>
-                    <td class="tg-baqh">Arduino.cc</td>
-                    <td class="tg-baqh">Microcontroller IDE </td>
-                    <td class="tg-baqh">
+                    <td className="tg-baqh">Arduino.cc</td>
+                    <td className="tg-baqh">Microcontroller IDE </td>
+                    <td className="tg-baqh">
                       <div>
                         <center>
                           <Button
-                            class="button"
+                            className="button"
                             variant="contained"
                             href="https://www.arduino.cc/en/software"
                             target="_blank" 
@@ -145,15 +145,15 @@ function Downloads() {
                     </td>
                   </tr>
                   <tr>
-                    <td class="tg-baqh">BlackLeakz Installer</td>
-                    <td class="tg-baqh">
+                    <td className="tg-baqh">BlackLeakz Installer</td>
+                    <td className="tg-baqh">
                       Offical Development Enviroment Installer (bS)
                     </td>
-                    <td class="tg-baqh">
+                    <td className="tg-baqh">
                       <div>
                         <center>
                           <Button
-                            class="button"
+                            className="button"
                             variant="contained"
                             href="https://github.com/blackleakz/blackleakz_installer"
                             target="_blank" 

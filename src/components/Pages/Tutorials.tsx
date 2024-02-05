@@ -41,7 +41,7 @@ const Tutorials = () => {
       </header>
 
       <div className="Tutorials">
-      <TutorialsList tutorials={tutorials}/>
+      <TutorialsList tutorials={tutorials} body={undefined} title={undefined} url={undefined} />
       </div>
     </div>
   );

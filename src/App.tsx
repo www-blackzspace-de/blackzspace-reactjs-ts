@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Routes, Router, Route } from 'react-router-dom';
 
 import Navigationbar from "./components/Navbar/Navigationbar";
 
@@ -15,30 +15,30 @@ import Update from "./components/Pages/Update";
 import Login from "./components/Pages/Login";
 import BlackzspaceOS from "./components/Pages/BlackzspaceOS";
 
-
-
 export function App() {
   return (         
-    <Router>
-    <Navigationbar />
-    <Switch>
-      <Route exact path="/" component={Root} />
-      <Route path="/board" />
-      <Route path="/news" component={News} />
-      <Route path="/tutorials" component={Tutorials} />
-      <Route path="/projects" component={Projects} />
-      <Route path="/downloads" component={Downloads} />
-      <Route path="/contact" component={Contact} />
-      <Route path="/login" component={Login} />
-      <Route path="/register" component={Register} />
+    <BrowserRouter>
 
-      <Route path="/blackzspace-os" component={BlackzspaceOS} />
-      <Route path="/update" component={Update} />
+      <Navigationbar />
+    
+      <Routes>
+        <Route path="/" element={<Root />} />
+        <Route path="/board" />
+        <Route path="/news" element={<News />} />
+        <Route path="/tutorials" element={<Tutorials />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/downloads" element={<Downloads />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
 
-      <Route path="/stream" component={Stream} />
+        <Route path="/blackzspace-os" element={<BlackzspaceOS />} />
+        <Route path="/update" element={<Update />} />
 
-    </Switch>
-  </Router>
+        <Route path="/stream" element={<Stream />} />
+      </Routes>
+    </BrowserRouter>
+
   );
-  }
-  export default App;
+}
+export default App;
