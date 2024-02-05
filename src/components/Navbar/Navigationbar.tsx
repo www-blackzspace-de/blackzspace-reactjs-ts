@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 function Navigationbar() {
   return (
-    <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
+    <Navbar collapseOnSelect variant="dark" expand="lg" className="navbar">
       <Container>
         <Navbar.Brand href="https://blackzspace.de">blackzspace.de</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
